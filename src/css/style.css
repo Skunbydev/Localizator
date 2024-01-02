@@ -11,3 +11,8 @@
 /* geral */ 
 
 @import '../css/geral/geral.css';
+
+
+/* utiity */ 
+@import '../css/utility/button.css';
+@import '../css/utility/colors.css';

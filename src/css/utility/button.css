@@ -1,0 +1,16 @@
+.button-m {
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  
+}
+
+.button-m:hover {
+  background-color: #444;
+}

@@ -1,21 +1,31 @@
 import React from 'react';
-import '../css/pages/login.css';
+import '../css/style.css';
 
 import loginPhoto from '../assets/login-photo.jpeg';
 
 const Login = () => {
   return (
-    <div>
-      <div className="login-container">
+    <div className="login-container">
+      <div className="login-background">
         <div className="login-photo">
-          <img src={loginPhoto} alt="login-photo" width={650} height={396} />
+          <img src={loginPhoto} alt="login-photo" />
         </div>
         <div className="login-inputs">
           <h1>Seja bem vindo!</h1>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" />
-          <label htmlFor="password">Senha:</label>
-          <input type="password" />
+          <form action="post">
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" placeholder="insira seu email" />
+            <label htmlFor="password">Senha:</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="insira sua senha"
+            />
+            <p>esqueci a senha</p>
+            <button className="button-m" type="submit">
+              Entrar
+            </button>
+          </form>
         </div>
       </div>
     </div>

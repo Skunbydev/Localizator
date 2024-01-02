@@ -1,0 +1,13 @@
+:root {
+  --cor-preto01: #000000;
+  --cor-branco01: #ffffff;
+  --cor-cinza01: #4D4D4D;
+}
+
+.cor-preto01 {
+  color: var(--cor-preto01);
+} 
+
+.cor-branco01 {
+  color: var(--cor-branco01);
+}
